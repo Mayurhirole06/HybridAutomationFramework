@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-11T16:34:24 IST" name="Hybrid Automation Suite" finished-at="2026-11-11T16:35:18 IST" duration-ms="53644">
+    <groups>
+    </groups>
+    <test started-at="2026-11-11T16:34:24 IST" name="E-Commerce Automation Tests" finished-at="2026-11-11T16:35:18 IST" duration-ms="53644">
+      <class name="testcases.LogoutTest">
+        <test-method signature="verifyLogout()[pri:0, instance:testcases.LogoutTest@5038d0b5]" started-at="2026-11-11T16:35:14 IST" name="verifyLogout" finished-at="2026-11-11T16:35:17 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+      </class> <!-- testcases.LogoutTest -->
+      <class name="testcases.ProductSortingTest">
+        <test-method signature="verifyProductSortingAtoZ()[pri:0, instance:testcases.ProductSortingTest@50f6ac94]" started-at="2026-11-11T16:34:58 IST" name="verifyProductSortingAtoZ" finished-at="2026-11-11T16:35:01 IST" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSortingAtoZ -->
+      </class> <!-- testcases.ProductSortingTest -->
+      <class name="testcases.CartTest">
+        <test-method signature="verifyCartProductAndRemove()[pri:0, instance:testcases.CartTest@28194a50]" started-at="2026-11-11T16:35:05 IST" name="verifyCartProductAndRemove" finished-at="2026-11-11T16:35:08 IST" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartProductAndRemove -->
+      </class> <!-- testcases.CartTest -->
+      <class name="testcases.OrderTest">
+        <test-method signature="verifyCompleteOrder()[pri:0, instance:testcases.OrderTest@1a5b6f42]" started-at="2026-11-11T16:35:11 IST" name="verifyCompleteOrder" finished-at="2026-11-11T16:35:14 IST" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteOrder -->
+      </class> <!-- testcases.OrderTest -->
+      <class name="testcases.CheckoutValidationTest">
+        <test-method signature="verifyEmptyCustomerDetailsValidation()[pri:0, instance:testcases.CheckoutValidationTest@7f2cfe3f]" started-at="2026-11-11T16:35:08 IST" name="verifyEmptyCustomerDetailsValidation" finished-at="2026-11-11T16:35:11 IST" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCustomerDetailsValidation -->
+      </class> <!-- testcases.CheckoutValidationTest -->
+      <class name="testcases.InventoryTest">
+        <test-method signature="verifyProductsDisplayed()[pri:0, instance:testcases.InventoryTest@e3b3b2f]" started-at="2026-11-11T16:34:55 IST" name="verifyProductsDisplayed" finished-at="2026-11-11T16:34:58 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsDisplayed -->
+      </class> <!-- testcases.InventoryTest -->
+      <class name="testcases.AddToCartTest">
+        <test-method signature="verifyAddToCart()[pri:0, instance:testcases.AddToCartTest@6cc4cdb9]" started-at="2026-11-11T16:35:02 IST" name="verifyAddToCart" finished-at="2026-11-11T16:35:05 IST" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+      </class> <!-- testcases.AddToCartTest -->
+      <class name="testcases.ExcelDataDrivenTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.ExcelDataDrivenTest@7975d1d8]" started-at="2026-11-11T16:34:24 IST" name="loginTest" data-provider="loginData" finished-at="2026-11-11T16:34:28 IST" duration-ms="3834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.ExcelDataDrivenTest@7975d1d8]" started-at="2026-11-11T16:34:28 IST" name="loginTest" data-provider="loginData" finished-at="2026-11-11T16:34:39 IST" duration-ms="10893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.ExcelDataDrivenTest@7975d1d8]" started-at="2026-11-11T16:34:40 IST" name="loginTest" data-provider="loginData" finished-at="2026-11-11T16:34:55 IST" duration-ms="15005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testcases.ExcelDataDrivenTest -->
+    </test> <!-- E-Commerce Automation Tests -->
+  </suite> <!-- Hybrid Automation Suite -->
+</testng-results>
